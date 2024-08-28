@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Víctor Site</title>
+    <style>
+        body {
+            background-image: url(/Víctor/img/tvgziAU-1334406235.jpg);
+        }
+    </style>
+<!--Modifica a div onde possui alguns itens-->
+    <style>
+        #infos_coffe {
+            text-align: center;
+        }
+    </style>
+<!--Modifica os parágrafos e títulos H1-->
+    <style>
+        p,h1 {
+            color: white;
+        }
+    </style>
+<!--Modifica o botão-->
+    <style>
+        #buy_button{
+            position: absolute;
+            top: 456px;
+            left: 885px;
+        }
+    </style>
+<!--Modifica o design dos preços do café-->
+    <style>
+        #coffe_prices{
+            text-align: center;
+            position: absolute;
+            top: 200px;
+            left: 650px;
+        }
+
+        th,td,caption{
+            color: aliceblue;
+        }
+    </style>
+
+<!--IMG do café-->
+    <style>
+        img{
+            width: 500px;
+        }
+        #coffe_img{
+            position: absolute;
+            top: 160px;
+            left: 40px;
+        }
+    </style>
+<!--Formulário de compra-->
+    <style>
+        #form_buy{
+            border-radius: 10px;
+            color:white;
+            position: absolute;
+            top: 400px;
+            left: 800px;
+        }
+    </style>
+</head>
+<body bgcolor="gray">
+
+    <div id="infos_coffe">
+        <h1>Hello World, Coffe House!</h1>
+    </div>
+    <div id="coffe_img">
+        <img src="/Víctor/img/como-preparar-cafe-colombiano-758887-2077410565.jpg">
+    </div>
+    <div id="buy_button">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><button>Comprar seu café</button></a>
+    </div>
+
+    <div id="coffe_prices">
+        <table width="600px" border="1">
+            <caption>Preço dos cafés</caption>
+            <tr>
+                <th>Clássicos</th>
+                <th>Preços</th>
+            </tr>
+            <tr>
+                <td>Puro, sem açúcar</td>
+                <td>4,50</td>
+            </tr>
+            <tr>
+                <td>Puro, com leite</td>
+                <td>4,75</td>
+            </tr>
+            <tr>
+                <td>Café peruano</td>
+                <td>5,00</td>
+            </tr>
+            <tr>
+                <td>Café argentino</td>
+                <td>5,75</td>
+            </tr>
+            <tr>
+                <td>Café americano</td>
+                <td>Sua vida entregue ao capitalismo</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="form_buy">
+        <form>
+            Qual café você gostaria de comprar?<br>
+            <input type="text" id="comprar" name="comprar" size="33">
+        </form>
+    </div>
+</body>
+</html>
