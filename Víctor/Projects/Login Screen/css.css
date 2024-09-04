@@ -8,7 +8,7 @@
         text-align: center;
         color: aliceblue;
         position: absolute;
-        left: 92vh;
+        left: 88vh;
         top: 25vh;
     }
 
@@ -16,7 +16,7 @@
         justify-content: center;
         text-align: center;
         position: absolute;
-        left: 92vh;
+        left: 88vh;
         top: 40vh;
         color: aliceblue;
         background-color: hsla(300, 10%, 95%, 0.1);
@@ -25,15 +25,33 @@
         gap: 7px;
         padding: 15px 20px;
         border-radius: 20px;
+        
+    }
+
+    #email{
+        border-radius: 20px;
+        text-align: center;
+    }
+
+    #password{
+        border-radius: 20px;
+        text-align: center;
     }
 
     #button_login{
         text-align: center;
         position: absolute;
-        left: 102vh;
+        left: 98vh;
         top: 67vh;
         background-color: hsla(300, 10%, 95%, 0.1);
         padding: 10px 30px;
         border-radius: 5px;
         color: aliceblue;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    }
+
+    #button_login:hover{
+        transform: scale(1.2);
+        background-color: skyblue;
+        color: white
     }
