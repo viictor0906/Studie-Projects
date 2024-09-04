@@ -1,0 +1,29 @@
+    body {
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    h1{
+        text-align: center;
+        color: aliceblue;
+    }
+
+    form {
+        text-align: center;
+        position: absolute;
+        left: 92vh;
+        top: 40vh;
+        color: aliceblue;
+        background-color: hsla(300, 30%, 95%, 0.2);
+        padding: 10px;
+    }
+
+    #button_login{
+        position: absolute;
+        left: 100vh;
+        top: 58vh;
+        background-color: hsla(201, 100%, 50%, 0.1);
+        padding: 10px 30px;
+        border-radius: 5px;
+        color: white;
+    }
