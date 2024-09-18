@@ -1,0 +1,25 @@
+package Víctor.Studies.POO_Guanabara.Pen;
+
+public class Obj_Caneta {
+    public static void main(String[] args) {
+        Caneta c1 = new Caneta();
+        c1.cor = "AZUL";
+        c1.ponta = 0.5f;
+        c1.modelo = "BIC";
+        c1.carga = 90; //referência a atributo;
+        c1.tampar();
+
+        c1.status(); //referência a método(pois tem parênteses no fim);
+        c1.rabiscar();
+        
+        Caneta c2 = new Caneta();
+        c2.cor = "Preta";
+        c2.ponta = 1.0f;
+        c2.modelo = "Stabilo";
+        c2.carga = 10;
+        c2.tampar();
+        
+        c2.status();
+        c2.rabiscar();
+    }
+}
