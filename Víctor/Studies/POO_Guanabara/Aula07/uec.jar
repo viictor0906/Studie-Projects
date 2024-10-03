@@ -1,0 +1,30 @@
+package Studies.POO_Guanabara.Aula07;
+
+public class uec {
+    public static void main(String[] args) {
+        lutador lutador[] = new lutador[6];
+        //info
+        lutador[0] = new lutador("Sucata", "China", 19, 1.75f, 83.8f, 15, 2, 0);
+        lutador[1] = new lutador("Prego", "Austrália", 22, 2.00f, 72.6f, 14, 8, 9);
+        lutador[2] = new lutador("Latinha", "Brasil", 11, 1.87f, 99.2f, 55, 0, 1);
+        lutador[3] = new lutador("Teclado", "EUA", 12, 1.22f, 84.0f, 11, 11, 9);
+        lutador[4] = new lutador("Livro", "Japão", 22, 1.67f, 102.6f, 33, 5, 2);
+        lutador[5] = new lutador("Rabado", "Mongólia", 32, 1.90f, 130.8f, 45, 9, 10);
+
+        //mod
+        lutador[0].ganharLuta();
+        lutador[1].perderLuta();
+        lutador[2].setPeso(45.0f);
+        lutador[3].ganharLuta();
+        lutador[4].empatarLuta();
+        lutador[5].setAltura(1.91f);
+
+        //apresentação
+        lutador[0].apresentar();
+        lutador[1].apresentar();
+        lutador[2].apresentar();
+        lutador[3].apresentar();
+        lutador[4].apresentar();
+        lutador[5].apresentar();
+    }
+}

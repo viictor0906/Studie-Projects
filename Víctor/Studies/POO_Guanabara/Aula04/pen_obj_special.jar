@@ -1,0 +1,8 @@
+package Studies.POO_Guanabara.Aula04;
+
+public class pen_obj_special {
+    public static void main(String[] args) {
+        pen_class_special c1 = new pen_class_special("Léo & Léo", "Preto", 1.0f);
+        c1.status();
+    }
+}

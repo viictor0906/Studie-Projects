@@ -1,19 +1,17 @@
-package Víctor.Studies.POO_Guanabara.Book;
+package Studies.POO_Guanabara.Book;
 
 public class obj_book {
-    
     public static void main(String[] args) {
         Book b1 = new Book();
-        b1.Book_Name = "The Brothers Karamazov";
-        b1.Autor = "Fiódor Mikhailovitch Dostoiévski";
-        b1.Editor = "Martin Claret";
-        b1.Type = "E-Book";
-        b1.pag = 911;
-        b1.price = 111.50f;
+        b1.book_name = "The Brothers Karamazov";
+        b1.autor = "Fiódor Mikhailovitch Dostoiévski";
+        b1.editor = "Martin Claret";
+        b1.type = "E-Book";
+        //b1.pag = 911;
+        //b1.price = 111.50f;
         b1.open();
-
+        b1.num_info();
         b1.status();
         b1.read();
     }
-
 }

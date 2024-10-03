@@ -1,0 +1,10 @@
+package Studies.POO_Guanabara.Aula06;
+
+public class ControleObj {
+    public static void main(String[] args) {
+        ControleRemoto c = new ControleRemoto();
+        c.ligar();
+        c.setVolume(12);
+        c.abrirMenu();
+    }
+}
